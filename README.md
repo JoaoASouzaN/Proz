@@ -3,3 +3,7 @@
 ## Repositório destinado aos exercícios propostos para a 31 turma do Talento Cloud
 
 1) [Logica Imperativa](https://github.com/JoaoASouzaN/Proz/tree/main/LogicaImperativa)
+
+   - [Receita do bolo de chocolate](https://github.com/JoaoASouzaN/Proz/tree/main/LogicaImperativa/ReceitaBoloChocolate.md)
+   - [Conferindo a organização da sala](https://github.com/JoaoASouzaN/Proz/tree/main/LogicaImperativa/ConferindoOrgSala.md)
+   - [Declarando o tipo das variaveis](https://github.com/JoaoASouzaN/Proz/tree/main/LogicaImperativa/DeclaracaoVar.md)

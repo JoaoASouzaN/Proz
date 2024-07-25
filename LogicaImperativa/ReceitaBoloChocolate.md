@@ -2,6 +2,8 @@
 
 ![ImagemContendoDescricaoDoExercicio](https://cdn.discordapp.com/attachments/1265758724371513459/1265758777022349464/ProzExB.png?ex=66a2ad39&is=66a15bb9&hm=0790607a2df6cc9a6ace482b6ce9a8893432f538e60bb2e7cf5c8b772e000ced&)
 
+Pedro foi ao supermercado e comprou ovos, leite, farinha, açúcar, manteiga e achocolatado em pó para fazer um bolo de chocolate. Como ele nunca fez um bolo antes, ele está bastante confuso e perdido. Auxilie Pedro construindo uma sequência lógica dos passos necessários para a preparação desse bolo. 
+
 - Verificar se os ingredientes estão disponíveis.
 - Caso não, conferir quais estão faltando.
 - Pegar dinheiro.

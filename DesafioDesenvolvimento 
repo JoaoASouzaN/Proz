@@ -7,3 +7,36 @@ Escreva um código que imprima todos os números exceto o número 13.
 Escreva mais dois códigos que resolvam o mesmo problema, mas dessa vez usando os outros dois tipos de laços de repetição aprendidos.
 
 Como desafio, imprima eles em ordem decrescente (20, 19, 18...)
+
+# Resolução:
+
+## 1. Usando o laço `for`
+
+```python
+for andar in range(20, 0, -1):
+    if andar == 13:
+        continue
+    print(andar)
+```
+
+## 2. Usando o laço `while`
+
+```python
+andar = 20
+while andar > 0:
+    if andar != 13:
+        print(andar)
+    andar -= 1
+```
+
+## 3. Usando o laço `do-while`
+
+```python lol
+andar = 20
+while True:
+    if andar != 13:
+        print(andar)
+    andar -= 1
+    if andar == 0:
+        break
+```

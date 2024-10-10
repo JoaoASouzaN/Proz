@@ -1,6 +1,6 @@
 # Desenvolvimento 3:
 
-Instruções do projeto
+Instruções do projeto:
 Precisamos imprimir um número para cada andar de um hotel de 20 andares. Porém, o dono do hotel é supersticioso e optou por não ter um 13ro andar.
 
 Escreva um código que imprima todos os números exceto o número 13.
@@ -31,7 +31,7 @@ while andar > 0:
 
 ## 3. Usando o laço `do-while`
 
-```python lol
+```python
 andar = 20
 while True:
     if andar != 13:
@@ -40,3 +40,36 @@ while True:
     if andar == 0:
         break
 ```
+
+# Desenvolvimento 4:
+
+Instrução do desafio:
+Faça uma função calculadora de dois números com três parâmetros: os dois primeiros serão os números da operação e o terceiro será a entrada que definirá a operação a ser executada. Considera a seguinte definição:
+1. Soma
+2. Subtração
+3. Multiplicação
+4. Divisão
+
+Caso seja inserido um número de operação que não exista, o resultado deverá ser 0.
+
+```python
+def calculadora(num1, num2, operacao):
+    if operacao == 1:
+        return num1 + num2
+    elif operacao == 2:
+        return num1 - num2
+    elif operacao == 3:
+        return num1 * num2
+    elif operacao == 4:
+        if num2 != 0:
+            return num1 / num2
+        else:
+            return "Erro: Divisão por zero"
+    else:
+        return 0
+
+resultado = calculadora(10, 5, 1)
+print("Resultado da operação:", resultado)
+
+```
+

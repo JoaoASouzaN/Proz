@@ -133,3 +133,34 @@ calculadora()
 
 ```
 
+# 🗓️ Desenvolvimento 6
+
+Instruções do projeto:
+
+Desenvolva um programa que recebe do usuário nome completo e ano de nascimento que seja entre 1922 e 2021.
+A partir dessas informações, o sistema mostrará o nome do usuário e a idade que completou, ou completará, no ano atual (2022).
+
+Caso o usuário não digite um número ou apareça um inválido no campo do ano, o sistema informará o erro e continuará perguntando até que um valor correto seja preenchido.
+
+```python
+
+def obter_informacoes_usuario():
+    nome = input("Digite seu nome completo: ")
+
+    while True:
+        try:
+            ano_nascimento = int(input("Digite seu ano de nascimento (entre 1922 e 2021): "))
+            if 1922 <= ano_nascimento <= 2021:
+                break
+            else:
+                print("Ano inválido. Por favor, digite um ano entre 1922 e 2021.")
+        except ValueError:
+            print("Entrada inválida. Por favor, digite um número válido.")
+
+    idade = 2022 - ano_nascimento
+    print(f"\nNome: {nome}")
+    print(f"Idade em 2022: {idade} anos")
+
+obter_informacoes_usuario()
+
+```

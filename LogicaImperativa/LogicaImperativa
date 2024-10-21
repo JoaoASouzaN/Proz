@@ -1,0 +1,164 @@
+# Receita para bolo de chocolate
+
+![ImagemContendoDescricaoDoExercicio](https://cdn.discordapp.com/attachments/1265758724371513459/1265758777022349464/ProzExB.png?ex=66a2ad39&is=66a15bb9&hm=0790607a2df6cc9a6ace482b6ce9a8893432f538e60bb2e7cf5c8b772e000ced&)
+
+Pedro foi ao supermercado e comprou ovos, leite, farinha, açúcar, manteiga e achocolatado em pó para fazer um bolo de chocolate. Como ele nunca fez um bolo antes, ele está bastante confuso e perdido. Auxilie Pedro construindo uma sequência lógica dos passos necessários para a preparação desse bolo. 
+
+- Verificar se os ingredientes estão disponíveis.
+- Caso não, conferir quais estão faltando.
+- Pegar dinheiro.
+- Escolher onde comprar.
+- Deslocar até o local.
+- Ir até os produtos.
+- Pegar a quantidade necessária.
+- Ir ao caixa.
+- Pagar a compra.
+- Voltar para casa.
+- Com todos os ingredientes em mãos.
+- Abrir as embalagens.
+- Quebrar os ovos.
+- Pré aquecer o forno.
+- Misturar as quantidades certas dos ingredientes secos em uma vasilha.
+- Adicionar os ingredientes molhados e misturar até ficar homogêneo.
+- Untar ou colocar o papel manteiga na forma.
+- Despejar a massa na forma.
+- Colocar a forma no forno.
+- Fazer verificações frequentes.
+- Espetar o bolo com um garfo ou palito de dente limpos, até que saia sem massa grudada.
+- Tirar o bolo da forma.
+- Voilá.
+
+# Declaração de variaveis
+
+![ImagemContendoDescricaoDoExercicio](https://cdn.discordapp.com/attachments/1265758724371513459/1266163356558032966/ProzExB3.png?ex=66a42604&is=66a2d484&hm=2e79e706e649c338a3e7ce59305cab4a02784d4b1c2e8d3d278722314fb9e338&)
+
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. o identificador das variáveis;
+2. a declaração das variáveis com seus respectivos identificadores e tipos de dado;
+3. a utilização do comando de atribuição, apresentando identificador e dado.
+
+## Resposta:
+
+- string Nome = José Almeida da Silva;
+- string CPF = 12345678900;
+- string RG = 9517530;
+- float Altura = 1,78;
+- string Endereco = Rua A, 380 – Centro – Recife/PE;
+
+# Conferindo a organização da sala de aula
+
+![ImagemContendoDescricaoDoExercicio](https://cdn.discordapp.com/attachments/1265758724371513459/1266158594945056810/ProzExB2.png?ex=66a42195&is=66a2d015&hm=56eae8eb50c7097f566881ac72d23b8c8a99fb8f16f9a62d8c2ee6dd272e4f64&)
+
+Em uma sala de aula, há vinte e cinco alunos. Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M). Eles estão organizados na sala de forma alternada, conforme apresentado a seguir:
+
+Chegaram mais onze alunos nessa turma e o professor organizou a turma da seguinte maneira:
+
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um.
+
+## Resposta:
+
+Partindo do ponto em que o professo possue a ordem de quando ele saiu da sala, basta fazer uma verificação junto com um laço de repetição até encontrar as duas cadeiras que foram trocadas.
+
+Elabore um algoritmo para que o usuário, através da entrada de dados, informe os seus dados pessoais. Alguns desses dados
+fornecidos pelo usuário precisam ser apresentados na tela quando o algoritmo for executado, são eles:
+ 
+- Nome;
+- Endereço;
+- Cidade;
+- CPF;
+- RG.
+
+Início
+    // Declaração das variáveis
+    variável nome, endereço, cidade, cpf, rg: texto
+
+    // Entrada de dados
+    exibir "Digite seu nome: "
+    ler nome
+
+    exibir "Digite seu endereço: "
+    ler endereço
+
+    exibir "Digite sua cidade: "
+    ler cidade
+
+    exibir "Digite seu CPF: "
+    ler cpf
+
+    exibir "Digite seu RG: "
+    ler rg
+
+    // Exibição dos dados fornecidos
+    exibir "Dados pessoais:"
+    exibir "Nome: " + nome
+    exibir "Endereço: " + endereço
+    exibir "Cidade: " + cidade
+    exibir "CPF: " + cpf
+    exibir "RG: " + rg
+
+# Area do resturante
+
+  Elabore um algoritmo que possa descobrir, através de perguntas e respostas, em qual área de um restaurante uma pessoa ou grupo de pessoas precisa ser alocada.
+  O restaurante tem três áreas: térreo, 1ro andar, e área externa.
+  Clientes fumantes ou com animais de estimação precisam ser alocadas na área externa.
+  Grupos de 5 ou mais precisam ser alocados no 1º andar, pois não dá para juntar mesas no térreo.
+  Qualquer outro grupo de pessoas pode ser alocado no térreo. 
+  
+ Início
+    // Declaração das variáveis
+    variável fumante, animal, quantidade_pessoas: inteiro
+    variável area_alocacao: texto
+
+    // Entrada de dados
+    exibir "O cliente ou alguém do grupo é fumante? (1 - Sim, 0 - Não): "
+    ler fumante
+
+    exibir "O cliente ou alguém do grupo está com um animal de estimação? (1 - Sim, 0 - Não): "
+    ler animal
+
+    exibir "Quantas pessoas estão no grupo? "
+    ler quantidade_pessoas
+
+    // Verificação das condições para alocação
+    se fumante == 1 ou animal == 1 então
+        area_alocacao <- "área externa"
+    senão se quantidade_pessoas >= 5 então
+        area_alocacao <- "1º andar"
+    senão
+        area_alocacao <- "térreo"
+    fimse
+
+    // Exibir resultado
+    exibir "O cliente ou grupo deve ser alocado na " + area_alocacao
+Fim
+
+# Torneio E-Sports
+
+Num torneio de e-sports é necessário que todos os integrantes da mesma equipe tenham etiquetas que os identifiquem. Por exemplo, se o nome da equipe é “Os Lutadores”, o primeiro membro deve ter uma etiqueta “Os Lutadores – 1", o segundo membro “Os Lutadores – 2", e assim pela frente.
+
+Elabore um algoritmo que permita ao usuário inserir o nome da equipe, e imprime etiquetas para os 5 membros da equipe seguindo o exemplo mostrado acima.
+
+Início
+    // Declaração de variáveis
+    variável nome_equipe: texto
+    variável i: inteiro
+
+    // Entrada de dados
+    exibir "Digite o nome da equipe: "
+    ler nome_equipe
+
+    // Geração e exibição das etiquetas para 5 membros
+    para i de 1 até 5 faça
+        exibir nome_equipe + " - " + i
+    fimpara
+Fim
